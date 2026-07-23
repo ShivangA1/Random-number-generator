@@ -1,0 +1,63 @@
+body {
+    background-color: #BDADEA;
+    color: #4E4B5C;
+    font-family: "Edu VIC WA NT Hand", cursive;
+}
+
+.myHead {
+    word-spacing: 10px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.inputs input{
+    flex: 1;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.inputs label {
+    display: flex;
+    align-items: center;
+}
+
+.myButton {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #BEA2C2;
+    border: solid;
+    border-color: black;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s, background-color 0.15s;
+}
+
+button:hover {
+    color: #BEA2C2;
+    border-color: #BEA2C2;
+    background-color: black;
+}
+.float-box{
+    display: flex;
+    font-size: large;
+    margin: 20px;
+    column-gap: 7px;
+}
+.float-box input{
+    width: 20px;
+}
