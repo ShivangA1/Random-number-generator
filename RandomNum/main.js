@@ -11,7 +11,7 @@ function randomise() {
         alert("invalid parameters");
         return
     }
-    var rnd = (Math.random() * ((max + 1) - min)) + min;
+    var rnd = (Math.random() * (max - min)) + min;
     if (floatcheck) {
         num.textContent = rnd.toFixed(2);
         console.log(rnd);
